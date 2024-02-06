@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 export function Home()  {
-	const [ selectedColor, setSelectedColor ] = useState("red");
+	const [ selectedColor, setSelectedColor ] = useState("null");
 	const [ showPurple, setShowPurple ] = useState(false);
 	const [ cycleActive, setCycleActive ] = useState(false);
 

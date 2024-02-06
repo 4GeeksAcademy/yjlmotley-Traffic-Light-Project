@@ -24,12 +24,11 @@
 .green { background-color: green; }
 .purple {background-color: purple;}
 
-.purpleButton {
+.buttonGroup {
     float: left;
     margin-left: 40px;
     margin-top: 25px;
 }
-
 #cycleButton, #purpleButton {
     display: block;
     margin-top: 5px;

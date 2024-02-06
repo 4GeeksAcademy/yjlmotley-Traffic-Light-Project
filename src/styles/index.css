@@ -1,20 +1,40 @@
+.traffic-light-top {
+    width: 18px;
+    height: 120px;
+    background: black;
+    margin-left: 362px;
+}
 .traffic-light {
     background: black;
     padding: 10px;
     display: inline-block;
-    margin: auto;
+    border-radius: 15px;
+    margin-left:300px;
 }
 .light {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: blue;
+    margin: 10px;
 }
 
 .red { background-color: red; }
 .yellow { background-color: yellow; }
 .green { background-color: green; }
+.purple {background-color: purple;}
+
+.purpleButton {
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+#cycleButton, #purpleButton {
+    display: block;
+    margin-top: 5px;
+}
 
 .glow {
-    box-shadow: 0px 0px 9px 4px #747DE8;
+    box-shadow: 0px 0px 30px 4px white;
 }
